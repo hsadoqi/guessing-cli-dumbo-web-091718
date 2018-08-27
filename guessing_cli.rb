@@ -1,6 +1,6 @@
 # Code your solution here!
 
-def run_guessing_game
+def run_guessing_game(num)
   num = rand()
   until input == "exit"
   input = gets.chomp
