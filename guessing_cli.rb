@@ -2,9 +2,9 @@
 
 def run_guessing_game
 loop do 
- puts "Guess a number between 1 and 10."
+ puts "Guess a number between 1 and 6."
  input = gets.chomp
- num = rand(1..10)
+ num = rand(1..6)
  if input.downcase == "exit"
    puts "Goodbye!"
    break
